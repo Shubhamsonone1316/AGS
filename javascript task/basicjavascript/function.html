@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+ <input type="text" name="name" id="name">
+
+ <button onclick="demo()">submit</button>
+
+ <div class="view">
+
+ </div>
+</head>
+<body>
+    
+</body>
+<script>
+    function demo(){
+        var name = document.getElementById('name').value;
+        var demp ="hello" +name;
+        document.getElementsByClassName('view')[0].innerHTML = demp
+    }
+</script>
+</html>
+
+<!-- 
+** functions -->
+<!-- functions are group of code or proagram which is used more time -->
+ <!-- it leads programming code reuability and clean code -->
+
+ <!-- types of functions :
+
+ 1. pre defined functions : such function are defined at the time of making of any language.
+
+ 2. uesr defined functions : such function are defined by uers according therir needs
+
+ name creat time create 'function' keyword ued
+
+ syntax: 
+
+ function <functionname>(){
+    function body
+    } -->
